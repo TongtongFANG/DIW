@@ -26,7 +26,3 @@ After running `python diw.py`, a output figure and text file of test accurary ar
 If the code is useful in your research, please cite the following:  
 Tongtong Fang, Nan Lu, Gang Niu, Masashi Sugiyama. Rethinking Importance Weighting for Deep Learning under Distribution Shift. NeurIPS 2020. 
 
-
-```python
-
-```
