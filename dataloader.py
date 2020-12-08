@@ -157,7 +157,7 @@ def read_label_file(path):
         assert get_int(data[:4]) == 2049
         length = get_int(data[4:8])
         parsed = np.frombuffer(data, dtype=np.uint8, offset=8)
-        return torch.from_numpy(parsed).view(length).long()
+        return torch.from_numpy(parsed.copy()).view(length).long()
 
 
 def read_image_file(path):
@@ -169,7 +169,7 @@ def read_image_file(path):
         num_cols = get_int(data[12:16])
         images = []
         parsed = np.frombuffer(data, dtype=np.uint8, offset=16)
-        return torch.from_numpy(parsed).view(length, num_rows, num_cols)
+        return torch.from_numpy(parsed.copy()).view(length, num_rows, num_cols)
 
 
 # Dataloader for Fashion-MNIST
