@@ -17,7 +17,7 @@ The code was developed and tested based on the following environment.
 - tqdm
 
 ## Quick start
-You can run an example code of DIW on Fasion-MNIST under 0.4 symmetric label noise.
+You can run an example code of DIW on Fashion-MNIST under 0.4 symmetric label noise.
 
 `python diw.py`
 
