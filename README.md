@@ -3,6 +3,8 @@
 
 This is a reproducing code for Dynamic Importance Weighting (DIW) in the NeurIPS'20 paper: Rethinking Importance Weighting for Deep Learning under Distribution Shift.
 
+Link to the paper: https://proceedings.neurips.cc//paper/2020/file/8b9e7ab295e87570551db122a04c6f7c-Paper.pdf
+
 ## Requirements
 The code was developed and tested based on the following environment.
 - python 3.8
